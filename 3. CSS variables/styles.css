@@ -1,0 +1,35 @@
+:root
+{
+    --base: rgb(26, 212, 212);
+    --blur: 5px;
+    --spacing: 10px; 
+}
+
+img
+{
+    margin-top: 3%;
+    background-color: var(--base);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+}
+
+.h1
+{
+    color: var(--base);
+}
+
+body
+{
+    background-color: rgb(59, 77, 126);
+    text-align: center;
+    font-family: 'helvetica neue', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 1.75rem;
+}
+
+input
+{
+    width: 9rem;
+}
+

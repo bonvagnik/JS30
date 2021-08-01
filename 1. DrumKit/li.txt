@@ -1,0 +1,2 @@
+Learned: key events; playing audio 
+and listening to transition events
